@@ -9,7 +9,7 @@ So far, we have seen how to retrieve data from our code, and manipulate that dat
 
 * Understand how an `if` statement can change the execution flow of our code when certain conditions are met
 * Understand how the `if` keyword works with the `else` keyword in Python
-* See how to select certain data by combining `if` statements in `for` loops
+* See how to select certain data by combining `if` statements in `for` loops 
 
 ### If Statement and Execution Flow
 
@@ -204,9 +204,9 @@ vacation_days
 
 
 
-Since `0` is **not** `truthy`, it is considered `falsy`. We can see that the `if` block was not run and `vacation_days` was not incremented, almost as if `vacation_days` evaluated to `False`.
+Since `0` is **not** `truthy`, it is considered `falsy`. We can see that the `if` block was not run and `vacation_days` was not incremented, almost as if `vacation_days` evaluated to `False`. 
 
-So what is truthy and what is falsy in Python?  Zero is falsy, and `None` is falsy.  Also falsy is anything where `len` of that thing returns `False`, so `''`, `[]` are both falsy.  Let's see that.
+So what is truthy and what is falsy in Python?  Zero is falsy, and `None` is falsy.  Also falsy is anything where `len` of that thing returns `False`, so `''`, `[]` are both falsy.  Let's see that. 
 
 
 ```python
@@ -264,7 +264,7 @@ def starts_with_h(words):
     for word in words:
         if word.startswith('h'):
             selected.append(word)
-    return selected
+    return selected 
 
 starts_with_h(greetings)
 ```
